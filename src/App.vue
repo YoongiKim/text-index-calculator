@@ -59,7 +59,13 @@ export default {
   name: 'App',
 
   data: () => ({
-    text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum ipsa, fugit a reprehenderit mollitia voluptatum omnis magnam debitis eos nostrum repudiandae laudantium accusantium odit exercitationem nulla sunt placeat nihil! Quaerat!',
+    text: '| Name   | Math Grade | Science Grade | English Grade |\n' +
+        '| ------ | ---------- | ------------- | ------------- |\n' +
+        '| Alice  | 90         | 85            | 92            |\n' +
+        '| Bob    | 80         | 92            | 88            |\n' +
+        '| Carol  | 95         | 96            | 90            |\n' +
+        '| David  | 87         | 89            | 92            |\n' +
+        '| Emily  | 92         | 90            | 95            |',
     selection: {start: 0, end: 0},
     isMouseDown: false,
   }),
