@@ -46,8 +46,9 @@
         dark
         app
       >
+        <a href="https://github.com/YoongiKim/text-index-counter" style="color: white;">GitHub</a>
         <v-spacer/>
-        <span class="white--text text-right">&copy; Made by <a href="https://www.yoongi.kim">Yoongi Kim</a> (yoongi@yoongi.kim)</span>
+        <span class="white--text text-right">&copy; Made by <a href="https://www.yoongi.kim" style="color: white;">Yoongi Kim</a> (yoongi@yoongi.kim)</span>
       </v-footer>
     </v-main>
   </v-app>
