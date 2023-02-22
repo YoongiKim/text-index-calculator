@@ -5,7 +5,7 @@
       color="grey-darken-3"
       dark
     >
-      <v-app-bar-title>Text index calculator</v-app-bar-title>
+      <v-toolbar-title>Text index calculator</v-toolbar-title>
     </v-app-bar>
 
     <v-main>
@@ -14,17 +14,17 @@
           <v-col>
             <v-card>
               <v-card-title>
-                길이: {{text.length}}
+                Length: {{text.length}}
               </v-card-title>
               <v-card-title>
-                선택영역 (start <= n < end)
+                Selection (start <= n < end)
                 <br/>
                 {{selection.start}}:{{selection.end}}
               </v-card-title>
               <v-card-text>
                 <v-textarea
                   v-model="text"
-                  label="텍스트"
+                  label="Text"
                   outlined
                   dense
                   rows="30"
@@ -44,7 +44,7 @@
         app
       >
         <v-spacer/>
-        <span class="white--text text-right">&copy; Made by Yoongi Kim (yoongi@bhsn.ai)</span>
+        <span class="white--text text-right">&copy; Made by <a href="https://www.yoongi.kim">Yoongi Kim</a> (yoongi@yoongi.kim)</span>
       </v-footer>
     </v-main>
   </v-app>
@@ -79,6 +79,6 @@ export default {
 <style>
 textarea {
   font-family: monospace;
-  text-wrap: pre;
+  white-space: pre;
 }
 </style>
