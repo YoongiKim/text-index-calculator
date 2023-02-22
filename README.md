@@ -1,19 +1,11 @@
 # index-counter
 
-## Project setup
-```
-yarn install
-```
+I couldn't find a good tool online, so I made one.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+When you enter text, it displays text length and position values.
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## Check out this link. 
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+https://index.yoongi.kim/
+
+![img.png](img.png)
