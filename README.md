@@ -6,6 +6,6 @@ When you enter text, it displays text length and position values.
 
 ## Check out this link. 
 
-https://index.yoongi.kim/
+https://text-index-counter.web.app/
 
 ![img.png](img.png)
