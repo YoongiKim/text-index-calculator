@@ -1,4 +1,4 @@
-# index-counter
+# Text index counter
 
 I couldn't find a good tool online, so I made one.
 

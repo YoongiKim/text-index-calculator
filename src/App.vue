@@ -5,7 +5,7 @@
       color="grey-darken-3"
       dark
     >
-      <v-toolbar-title>Text index calculator</v-toolbar-title>
+      <v-toolbar-title>Text index counter</v-toolbar-title>
     </v-app-bar>
 
     <v-main>
@@ -20,6 +20,9 @@
                 Selection (start <= n < end)
                 <br/>
                 {{selection.start}}:{{selection.end}}
+                <br/>
+                <br/>
+                Span length: {{selection.end - selection.start}}
               </v-card-title>
               <v-card-text>
                 <v-textarea
